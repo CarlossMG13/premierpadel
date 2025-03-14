@@ -1,0 +1,57 @@
+@media(max-width:1400px){
+    .box1 p, .box2 p, .box3 p, .box4 p {
+        font-size: 1rem;
+        margin: 5px 60px;
+    }
+
+    
+    .countdown-descrip h2{
+        font-size: 2em;
+        margin: 10px 20px;
+    }
+
+    .countdown-descrip p{
+        font-size: 1.2em;
+    }
+
+    .ubi-title{
+        margin-right: 874px;
+    }
+}
+
+@media(max-width:1200px){
+    .tournaments{
+        margin-top: 40px;
+    }
+
+    .contaremos{
+        margin-top: 40px;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        padding: 40px;
+    }
+
+    .box1 h5, .box2 h5, .box3 h5, .box4 h5 {
+        font-size: 1rem;
+        color: #12229C;
+        transition: color .4s; /* Añade la transición para el color del texto */
+    }
+
+    .box1 p, .box2 p, .box3 p, .box4 p {
+        font-size: 1rem;
+        margin: 5px 10px;
+    }
+}
+
+@media(max-width:992px){
+    
+}
+
+@media(max-width:768px){
+    
+}
+
+@media(max-width:576px){
+    
+}

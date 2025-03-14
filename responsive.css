@@ -1,0 +1,232 @@
+@media(max-width:1440px){
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 14px;
+    }
+    .ubi-title{
+      height: 30px;
+      width: 130px;
+      font-size: 20px;
+    }
+}
+
+@media(max-width:1347px){
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 12px;
+        width: 180px;
+    }
+
+    .countdown-descrip h2{
+        font-size: 2em;
+    }
+
+    .ubi-title{
+      margin-left: 227px;
+    }
+}
+
+@media(max-width:1277px){
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 10px;
+    }
+    .ubi-title{
+      margin-right: 998px;
+    }
+
+    .direccion{
+      margin-left: 87px;
+    }
+
+    .box1 h5, .box2 h5, .box3 h5, .box4 h5{
+        font-size: 1rem;
+        color: #12229C;
+    }
+
+    
+  .box1, .box2, .box3, .box4{
+    background-color: transparent;
+    height: 50%;
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #12229C;
+    width: 71%;
+  }
+
+  .direccion{
+    margin-left: 144px;
+  }
+
+  .iframe{
+    width: 600px;
+    margin-right: 180px;
+  }
+
+  .iframe iframe{
+    width: 400px;
+    height: 400px;
+  }
+
+@media(max-width:1050px){
+  .ubi-title{
+    margin-right: 700px;
+  }
+
+  .iframe iframe{
+    height: 29vh;
+    width: 53vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+  }
+}
+
+@media (max-width:855px) {
+  .ubi-title{
+    margin-right: 565px;
+  }
+}
+
+@media(max-width:810px){
+    .countdown-descrip{
+        width: 40%;
+    }
+}
+
+@media(max-width:850px){
+    .website {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 50px;
+      }
+
+      .contaremos{
+        padding: 50px 45px;
+      }
+      section {
+        text-align: center;
+        background: #F5F6FB;
+        padding-bottom: 50px;
+      }
+
+      .website{
+        gap: 5px;
+      }
+      
+      .ubi-title {
+        margin-right: 445px;
+      }
+
+      .banner{
+        height: 100vh;
+      }
+
+      .banner_tournament img {
+        width: 69%;
+      }
+}
+
+@media(max-width:665px) {
+  .direccion{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: auto;
+    width: auto;
+    padding-top: 14%;
+    font-size: 20px;
+  }
+}
+
+@media(max-width:609px){
+    .countdown-descrip h2 {
+        font-size: 1.5em;
+        margin: 10px;
+      }
+      .countdown-descrip p {
+        font-size: 1em;
+        color: #223DFE;
+      }
+      .ubi-title {
+        margin-right: 375px;
+      }
+      .iframe iframe {
+        height: 33vh;
+        width: 40vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+      }
+
+}
+
+@media(max-width:577px){
+    .banner_tournament img {
+      width: 100%;
+      height: 45%;
+        margin-top: 15px;
+      }
+
+      .banner h1 {
+        font-size: 2em;
+      }
+
+      .tournaments p {
+        font-size: 0.9rem;
+      }
+
+      section p {
+        font-size: 0.8rem;
+      }
+      .ubi-title {
+        margin-right: 220px;
+      }
+}
+
+@media (max-width:461px) {
+  .iframe iframe{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: 300px;
+    width: 200px;
+    padding-top: 14%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:450px){
+    .tournaments {
+        text-align: center;
+        padding: 50px 45px;
+      }
+}
+}
+
+@media (max-width:388px){
+  .tournaments {
+      text-align: center;
+      padding: 50px 45px;
+    }
+
+    .box1 p,.box2 p,.box3 p,.box4 p {
+      font-size: 1rem;
+      margin:5px 0px;
+    }
+
+    .box1,.box2,.box3,.box4 {
+      width: 64%;
+    }
+    
+    .iframe iframe{
+      width: 194px;
+    }
+
+    .ubi-title {
+      margin-right: 152px;
+    }
+}
