@@ -1,10 +1,17 @@
 @media(max-width:1400px){
+    .tournaments{
+        margin-top: 40px;
+    }
+
+    .contaremos{
+        margin-top: 40px;
+    }
+
     .box1 p, .box2 p, .box3 p, .box4 p {
         font-size: 1rem;
         margin: 5px 60px;
     }
 
-    
     .countdown-descrip h2{
         font-size: 2em;
         margin: 10px 20px;
@@ -14,14 +21,23 @@
         font-size: 1.2em;
     }
 
-    .ubi-title{
+    .ubi-title-child{
         margin-right: 874px;
+    }
+
+    .ubicacion{
+        margin-top: 0;
+        height: 55vh;
     }
 }
 
 @media(max-width:1200px){
     .tournaments{
         margin-top: 40px;
+    }
+
+    .tournaments p{
+        padding: 0 239px;
     }
 
     .contaremos{
@@ -42,16 +58,210 @@
         font-size: 1rem;
         margin: 5px 10px;
     }
+
+    .countdown{
+        height: 40vh;
+        margin: 35px 100px;
+    }
+
+    .countdown-descrip{
+        height: 40vh;
+    }
+
+    .countdown-descrip h2{
+        font-size: 1.8em;
+        margin: 10px 10px;
+    }
+
+    .countdown-descrip p{
+        font-size: .9em;
+    }
+
+    .ubi-title-child{
+        font-size: 15px;
+        margin-right: 0;
+        padding: 0 10px;
+    }
+
+    .ubicacion{
+        height: 45vh;
+    }
+
+    .direccion{
+        margin-left: 200px;
+        padding: 60px 10px;
+    }
+
+    .direccion p{
+        font-size: .8em;
+    }
+
+    .iframe{
+        margin-right: 210px;
+    }
+
+    .iframe iframe{
+        width: 400px;
+        height: 400px;
+    }
+
+    .footer-info{
+        font-size: .7em;
+    }
 }
 
 @media(max-width:992px){
-    
+    .banner h1{
+        font-size: 3.5em;
+    }
+
+    .tournaments p{
+        width: 75%;
+        padding: 0 120px;
+    }
+
+    .website{
+        width: 75%;
+    }
+
+    .direccion{
+        margin-left: 90px;
+    }
+
+    .iframe{
+        margin-right: 97px;
+    }
 }
 
 @media(max-width:768px){
     
+    .banner h1{
+        font-size: 2.5em;
+    }
+
+    .banner p{
+        font-size: 1.5em;
+    }
+
+    .outline_text{
+        font-size: 45px;
+        left: -23px;
+    }
+
+    .solid_text{
+        font-size: 35px;
+        top: -15px;
+    }
+
+    .tournaments{
+        margin-top: 20px;
+    }
+
+    .tournaments p{
+        width: 100%;
+        padding: 0 150px;
+        font-size: 1em;
+    }
+
+    .contaremos{
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 0 150px;
+    }
+
+    .website{
+        padding-top: 25px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .countdown{
+        height: 20vh;
+        margin: 50px 100px;
+    }
+
+    .countdown-descrip{
+        background-color: rgba(0, 0, 0, 0.701);
+        border-radius: 50px 50px 50px 50px;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .countdown-descrip h2{
+        font-size: 1.2em;
+    }
+
+    .ubi-title-child{
+        width: 10%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .ubicacion{
+        height: 40vh;
+        flex-direction: column;
+    }
+
+    .direccion{
+        text-align: center;
+        margin-left: 0;
+        padding: 30px 135px;
+    }
+
+    .iframe{
+        margin-right: 0;
+    }
+
+    .iframe iframe{
+        padding-top: 0;
+        width: 400px;
+        height: 250px;
+    }
+
+    .footer-logo img{
+        margin-right: 0;
+    }
+
+    .footer-info{
+        display: none;
+    }
+
 }
 
 @media(max-width:576px){
-    
+    .banner h1{
+        font-size: 2.2em;
+    }
+
+    .banner p{
+        font-size: 1.2em;
+    }
+
+    .tournaments p{
+        padding: 0 115px;
+        font-size: .7em;
+    }
+
+    .contaremos{
+        padding: 0 115px;
+        font-size: .7em;
+    }
+
+    .box1 p, .box2 p, .box3 p, .box4 p {
+        font-size: .7rem;
+    }
+
+    .ubi-title-child{
+        width: 12%;
+    }
+
+    .direccion{
+        padding: 30px 100px;
+    }
 }
